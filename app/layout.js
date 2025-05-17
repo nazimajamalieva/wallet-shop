@@ -1,8 +1,8 @@
-import { Jost } from "next/font/google";
+import { Jost, Poppins } from "next/font/google";
 import "./globals.css";
 import Header from "./_Components/Header";
 
-const jost = Jost({
+const jost = Poppins({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   display: "swap",
