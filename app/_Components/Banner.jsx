@@ -5,7 +5,7 @@ import React from "react";
 const Banner = () => {
   return (
     <>
-      <div className="bg-[#DDF057] pt-30 pb-52 px-10">
+      <div className="bg-[#DDF057] pt-30 pb-55 px-10">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-18 items-center">
             <div className="space-y-12">
@@ -20,7 +20,7 @@ const Banner = () => {
               </p>
               <Button>Explore Collections</Button>
             </div>
-            <div className="relative">
+            <div className="relative z-20">
               <div className="flex justify-end">
                 <Image
                   src="/Assets/wallet.png"
