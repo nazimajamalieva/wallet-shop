@@ -11,7 +11,7 @@ const Companys = () => {
   ];
   return (
     <>
-      <div className="grid grid-cols-5 z-20 gap-20 mt-15 items-center justify-around text-center  ">
+      <div className="grid grid-cols-5 z-20 gap-20 mt-20 items-center justify-around text-center  ">
         {companies.map((company, index) => (
           <Image
             key={index}
