@@ -5,7 +5,7 @@ import React from "react";
 const Creative = () => {
   return (
     <>
-      <div className="grid grid-cols-2 gap-40 items-center mt-30">
+      <div className="grid grid-cols-2 gap-40 items-center mt-30 px-10">
         <div className="space-y-10 pe-20">
           <h1 className="text-5xl font-semibold leading-tight">
             Creative Design

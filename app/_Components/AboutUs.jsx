@@ -7,8 +7,8 @@ import Image from "next/image";
 const AboutUs = () => {
   return (
     <>
-      <div className="bg-gray-200/40 mt-30">
-        <div className="container mx-auto py-20">
+      <div className="bg-gray-200/40 mt-30 ">
+        <div className="container mx-auto py-20 ">
           <div className="grid grid-cols-2 gap-20 py-20">
             <div className="space-y-5 pe-20">
               <h1 className="text-6xl font-semibold leading-tight">About Us</h1>

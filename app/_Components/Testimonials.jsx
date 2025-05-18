@@ -52,7 +52,7 @@ const Testimonials = () => {
         <div className="container mx-auto py-20">
           <div className="text-center space-y-4 pb-16">
             <h1 className="text-6xl font-semibold leading-tight">
-              From Our Customers
+             "What Our Customers Say"
             </h1>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               Discover what our valued clients have to say about their
