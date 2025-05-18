@@ -1,3 +1,4 @@
+import AboutUs from "./_Components/AboutUs";
 import Banner from "./_Components/Banner";
 import Companys from "./_Components/Companys";
 import Creative from "./_Components/Creative";
@@ -8,9 +9,12 @@ export default function Home() {
     <>
       <Banner />
       <div className="container mx-auto">
-        <Companys />
         <Supports />
+      </div>
+      <AboutUs />
+      <div className="container mx-auto">
         <Creative />
+        <Companys />
       </div>
     </>
   );
