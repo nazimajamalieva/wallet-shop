@@ -1,0 +1,233 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Classic Leather Wallet",
+      "price": 49.99,
+      "category": "Leather",
+      "image": "/Assets/1.jpg",
+      "description": "Nandcrafted from premium full-grain leather, this classic wallet combines durability with timeless style.",
+      "rating": 4.5,
+      "reviews": 128,
+      "features": [
+        "Premium Leather",
+        "6 Card Slots",
+        "Money Clip",
+        "Lifetime Warranty"
+      ],
+      "inStock": true,
+      "discount": 10
+    },
+    {
+      "id": 2,
+      "name": "Minimalist Card Holder",
+      "price": 29.99,
+      "category": "Minimalist",
+      "image": "/Assets/2.jpg",
+      "description": "Sleek and compact design perfect for essential cards and cash.",
+      "rating": 4.2,
+      "reviews": 95,
+      "features": ["Slim Design", "3 Card Slots", "RFID Protection"],
+      "inStock": true,
+      "discount": 0
+    },
+    {
+      "id": 3,
+      "name": "Travel Wallet",
+      "price": 59.99,
+      "category": "Travel",
+      "image": "/Assets/3.jpg",
+      "description": "Spacious design with multiple compartments for all your travel essentials.",
+      "rating": 4.8,
+      "reviews": 156,
+      "features": [
+        "Passport Holder",
+        "Mulriple Pockets",
+        "RFID Protection",
+        "Travel Organizer"
+      ],
+      "inStock": true,
+      "discount": 15
+    },
+    {
+      "id": 4,
+      "name": "Eco-Friendly Wallet",
+      "price": 39.99,
+      "category": "Eco-Friendly",
+      "image": "/Assets/4.jpg",
+      "description": "Made from sustainable materials, combining style with enviromental consciousness.",
+      "rating": 4.3,
+      "reviews": 87,
+      "features": ["Recycled Materials", "Biodegradable", "4 Card Slots"],
+      "inStock": true,
+      "discount": 5
+    },
+    {
+      "id": 5,
+      "name": "Bifold Wallet",
+      "price": 45.99,
+      "category": "Leather",
+      "image": "/Assets/5.jpg",
+      "description": "Traditional bifold design with multiple card slots and a bill compartment.",
+      "rating": 4.6,
+      "reviews": 112,
+      "features": [
+        "Classic Bifold",
+        "8 Card Slots",
+        "Bill Compartment",
+        "Genuine Leather"
+      ],
+      "inStock": true,
+      "discount": 0
+    },
+    {
+      "id": 6,
+      "name": "RFID BLocking Wallet",
+      "price": 54.99,
+      "category": "Security",
+      "image": "/Assets/6.jpg",
+      "description": "Protect your cards from electronic theft with our RFID bocking technology.",
+      "rating": 4.7,
+      "reviews": 143,
+      "features": [
+        "RFID Protection",
+        "6 Card Slots",
+        "Slim Design",
+        "Security Shield"
+      ],
+      "inStock": true,
+      "discount": 20
+    },
+    {
+      "id": 7,
+      "name": "Money CLip Wallet",
+      "price": 34.99,
+      "category": "Minimalist",
+      "image": "/Assets/7.jpg",
+      "description": "Slim profile with a sturdy maney clip for cash and essential cards.",
+      "rating": 4.1,
+      "reviews": 76,
+      "features": ["Money CLip", "2 Card Slots", "Ultra Slim"],
+      "inStock": true,
+      "discount": 0
+    },
+    {
+      "id": 8,
+      "name": "Passport Wallet",
+      "price": 64.99,
+      "category": "Travel",
+      "image": "/Assets/8.jpg",
+      "description": "Secure storage for your passport, tickets, and travel documents.",
+      "rating": 4.9,
+      "reviews": 167,
+      "features": [
+        "Passport Holder",
+        "Ticket Pockets",
+        "Slim Storage",
+        "RFID Protection"
+      ],
+      "inStock": true,
+      "discount": 0
+    },
+    {
+      "id": 9,
+      "name": "Vintage Leather Wallet",
+      "price": 69.99,
+      "category": "Leather",
+      "image": "/Assets/9.jpg",
+      "description": "Aged leather with a rustic finish, perfect for those who appreciate vintage style.",
+      "rating": 4.4,
+      "reviews": 102,
+      "features": ["Vintage Look", "8 Card Slots", " Bill Compartment"],
+      "inStock": true,
+      "discount": 10
+    },
+    {
+      "id": 10,
+      "name": "Smart Wallet",
+      "price": 79.99,
+      "category": "Technology",
+      "image": "/Assets/10.jpg",
+      "description": "Integrates with your smartphones for tracking and security feature.",
+      "rating": 4.5,
+      "reviews": 89,
+      "features": [
+        "Bluetooth Tracking",
+        "RFID Protection",
+        "Rechargeable Battery"
+      ],
+      "inStock": true,
+      "discount": 0
+    },
+    {
+      "id": 11,
+      "name": "Zipper Wallet",
+      "price": 39.99,
+      "category": "Fashion",
+      "image": "/Assets/11.jpg",
+      "description": "Stylish wallet with a secure zipper closure for added safety.",
+      "rating": 4.2,
+      "reviews": 65,
+      "features": ["Zipper Closure", "4 Card Slots", "Coin Pocket"],
+      "inStock": true,
+      "discount": 5
+    },
+    {
+      "id": 12,
+      "name": "Luxury Leather Wallet",
+      "price": 149.99,
+      "category": "Luxury",
+      "image": "/Assets/12.jpg",
+      "description": "Exquisite craftsmanship and premium materials for the discerning individual.",
+      "rating": 4.9,
+      "reviews": 44,
+      "features": [
+        "Handcrafted",
+        "10 Card Slots",
+        "Bill Compartment",
+        "Luxury Packaging"
+      ],
+      "inStock": true,
+      "discount": 0
+    },
+    {
+      "id": 13,
+      "name": "Canvas Wallet",
+      "price": 24.99,
+      "category": "Casual",
+      "image": "/Assets/13.jpg",
+      "description": "Durable canvas material with a casual design, perfect for everyday use.",
+      "rating": 4.0,
+      "reviews": 58,
+      "features": ["Canvas Material", "5 Ccard Slots", "Coin Pocket"],
+      "inStock": true,
+      "discount": 0
+    },
+    {
+      "id": 14,
+      "name": "Foldable Wallet",
+      "price": 34.99,
+      "category": "Travel",
+      "image": "/Assets/14.jpg",
+      "description": "Compact and foldable design, ideal for travel and outdoor activities.",
+      "rating": 4.3,
+      "reviews": 72,
+      "features": ["Foldable Design", "3 Card Slots", "Lighweight"],
+      "inStock": true,
+      "discount": 0
+    },
+    {
+      "id": 15,
+      "name": "Custom Engraved Wallet",
+      "price": 59.99,
+      "category": "Personalized",
+      "image": "/Assets/15.webp",
+      "description": "Personalize your wallet with custom engraving for a unique touch.",
+      "rating": 4.6,
+      "reviews": 39,
+      "features": ["Custom Engraving", "Genuine Leather", "Gift Box"],
+      "inStock": true,
+      "discount": 0
+    }
+  ]
+}

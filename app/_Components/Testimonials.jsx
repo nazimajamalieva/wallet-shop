@@ -52,7 +52,7 @@ const Testimonials = () => {
         <div className="container mx-auto py-20">
           <div className="text-center space-y-4 pb-16">
             <h1 className="text-6xl font-semibold leading-tight">
-             "What Our Customers Say"
+              "What Our Customers Say"
             </h1>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               Discover what our valued clients have to say about their
@@ -64,7 +64,7 @@ const Testimonials = () => {
             opts={{
               align: "start",
             }}
-            className="w-full  "
+            className="w-[90%] mx-auto"
           >
             <CarouselContent>
               {testimonials.map((testimonial, index) => (
@@ -101,13 +101,13 @@ const Testimonials = () => {
                           {testimonial.text}
                         </div>
                       </CardContent>
-                      <CarouselPrevious />
-                      <CarouselNext />
                     </Card>
                   </div>
                 </CarouselItem>
               ))}
             </CarouselContent>
+            <CarouselPrevious />
+            <CarouselNext />
           </Carousel>
         </div>
       </div>

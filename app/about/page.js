@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Star, Zap, Globe } from "lucide-react";
 
 export default function AboutPage() {
   return (
@@ -59,19 +60,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center  border-2 border-gray-300/40 p-8 rounded-md hover:border-primary transition-all duration-300 cursor-pointer hover:scale-105 hover:shadow-lg">
               <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg
-                  className="w-8 h-8 text-gray-600"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M12 1l3 6 7 .5-5 5 1 7-6-3-6 3 1-7-5-5 7-.5 3-6z"
-                  />
-                </svg>
+                <Star />
               </div>
               <h3 className="text-xl font-semibold mb-2">Quality</h3>
               <p className="text-gray-600">
@@ -81,19 +70,7 @@ export default function AboutPage() {
             </div>
             <div className="text-center  border-2 border-gray-300/40 p-8 rounded-md hover:border-primary transition-all duration-300 cursor-pointer hover:scale-105 hover:shadow-lg ">
               <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg
-                  className="w-8 h-8 text-gray-600"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"
-                  />
-                </svg>
+                <Zap />
               </div>
               <h3 className="text-xl font-semibold mb-2">Innovation</h3>
               <p className="text-gray-600">
@@ -103,17 +80,7 @@ export default function AboutPage() {
             </div>
             <div className="text-center  border-2 border-gray-300/40 p-8 rounded-md hover:border-primary transition-all duration-300 cursor-pointer hover:scale-105 hover:shadow-lg ">
               <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg
-                  className="w-8 h-8 text-gray-600"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <circle cx="12" cy="12" r="9" />
-                  <path d="M2 12h20" />
-                  <path d="M12 2a15 15 0 0 1 0 20" />
-                  <path d="M12 2a15 15 0 0 0 0 20" />
-                </svg>
+                <Globe />
               </div>
               <h3 className="text-xl font-semibold mb-2">Sustainability</h3>
 
