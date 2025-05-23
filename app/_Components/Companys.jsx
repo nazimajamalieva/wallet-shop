@@ -3,11 +3,11 @@ import React from "react";
 
 const Companys = () => {
   const companies = [
-    { src: "/assets/company1.png", width: 250, height: 100, alt: "Companys" },
-    { src: "/assets/company2.png", width: 250, height: 100, alt: "Companys" },
-    { src: "/assets/company3.png", width: 250, height: 100, alt: "Companys" },
-    { src: "/assets/company4.png", width: 250, height: 100, alt: "Companys" },
-    { src: "/assets/company5.png", width: 250, height: 100, alt: "Companys" },
+    { src: "/Assets/company1.png", width: 250, height: 100, alt: "Companys" },
+    { src: "/Assets/company2.png", width: 250, height: 100, alt: "Companys" },
+    { src: "/Assets/company3.png", width: 250, height: 100, alt: "Companys" },
+    { src: "/Assets/company4.png", width: 250, height: 100, alt: "Companys" },
+    { src: "/Assets/company5.png", width: 250, height: 100, alt: "Companys" },
   ];
   return (
     <>
