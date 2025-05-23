@@ -6,17 +6,11 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-200/40 mt-20 text-sm">
+    <footer className="bg-gray-200/40  text-sm">
       <div className="container mx-auto px-4 py-28">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-1">
           <div className="space-y-6 col-span-2">
-            <Image
-              src="/wallet-logo.png"
-              alt="Logo"
-              width={200}
-              height={80}
-              className="bg-gray-50"
-            />
+            <Image src="/wallet-logo.png" alt="Logo" width={200} height={80} />
             <p className="text-gray-600 text-lg md:w-4/5">
               Empowering your financial journey with secure and innovative
               digital wallet solutions.

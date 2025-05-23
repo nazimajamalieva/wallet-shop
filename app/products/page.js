@@ -55,11 +55,11 @@ export default function ProductsPage() {
   );
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 pb-20">
       <div className="relative h-[450px] w-full">
-        <div className="absolute inset-0 bg-black/75 z-10">
+        <div className="absolute inset-0 bg-black/95 z-10">
           <Image
-            src="/Assets/creater-img.png"
+            src="/Assets/products-bg.png"
             alt="Our Products"
             fill
             className="object-cover object-center"
