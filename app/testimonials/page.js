@@ -17,6 +17,7 @@ import {
   ChevronLeft,
 } from "lucide-react";
 import { motion } from "framer-motion";
+import { Button } from "@/components/ui/button";
 
 export default function TestimonialsPage() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -76,9 +77,9 @@ export default function TestimonialsPage() {
   }, [visibleStats]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
-      <div className="relative h-[400px] w-full overflow-hidden ">
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 z-0" />
+    <div className="min-h-screen ">
+      <div className="relative h-[500px] w-full overflow-hidden ">
+        <div className="absolute inset-0 bg-secondary z-0" />
         <div className="absolute inset-0 opacity-20 bg-[url('/pattern.svg')] z-0" />
 
         <div className="absolute inset-0 z-20 flex flex-col items-center justify-center gap-6 px-4">
@@ -96,7 +97,7 @@ export default function TestimonialsPage() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-xl  text-white/90 max-w-2xl text-center"
           >
-            Don't just take our word for it - see why customers arpund the world
+            Don't just take our word for it - see why customers around the world
             trust our solutions.
           </motion.p>
           <motion.div
@@ -104,7 +105,7 @@ export default function TestimonialsPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.4 }}
           >
-            <button className="mt-4 bg-white text-blue-600 px-8 py-3 rounded-full font-semibold flex items-center gap-2 hover:bg-opacity-900">
+            <button className="mt-4 bg-white text-secondary px-8 py-3 rounded-full font-semibold flex items-center gap-2 hover:bg-opacity-90">
               View all reviews <ArrowRight className="w-4 h-4" />
             </button>
           </motion.div>
@@ -118,16 +119,16 @@ export default function TestimonialsPage() {
           <h2 className="text-3xl font-bold text-gray-900  mb-4">
             Featured Reviews
           </h2>
-          <div className="w-20 h-1 bg-blue-500 mx-auto"></div>
+          <div className="w-20 h-1 bg-primary mx-auto"></div>
         </div>
 
         <div className="max-w-4xl mx-auto mb-24">
           <Card className="overflow-hidden shadow-2xl border-0">
             <CardContent className="p-0">
               <div className="flex flex-col lg:flex-row">
-                <div className="lg:w-2/5 bg-blue-600 text-white p-8 lg:p-12 flex items-center justify-center">
+                <div className="lg:w-2/5 bg-secondary text-white p-8 lg:p-12 flex items-center justify-center">
                   <div>
-                    <Quote className="w-16 h-16 mb-6 text-blue-300 opacity-50" />
+                    <Quote className="w-16 h-16 mb-6 text-primary opacity-50" />
                     <div className="text-2xl font-medium italic mb-8">
                       "This solution completely transformed our business
                       operations. The team's support is unmatched in the
@@ -142,19 +143,19 @@ export default function TestimonialsPage() {
                       ))}
                     </div>
                     <div className="font-bold text-xl">Sarah Thompson</div>
-                    <div className="text-blue-200">CEO, Innovate Tech</div>
+                    <div className="text-primary">CEO, Innovate Tech</div>
                   </div>
                 </div>
                 <div className="lg:3/5 p-6 lg:p-12">
                   <div className="h-full flex flex-col justify-between">
                     <div>
                       <h3 className="text-2xl font-bold text-gray-800 mb-6">
-                        Why Our Cutomers Shoose Us
+                        Why Our Customers Choose Us
                       </h3>
-                      <ul className="space-y-4">
+                      <ul className="space-y-7  py-4">
                         <li className="flex items-start gap-3">
-                          <div className="mt-1 bg-blue-100 p-1 rounded-full">
-                            <ChevronRight className="w-4 h-4 text-blue-600" />
+                          <div className="mt-1 bg-primary p-1 rounded-full">
+                            <ChevronRight className="w-4 h-4 text-secondary" />
                           </div>
                           <div>
                             <span className="font-bold text-gray-800">
@@ -167,8 +168,8 @@ export default function TestimonialsPage() {
                           </div>
                         </li>
                         <li className="flex items-start gap-3">
-                          <div className="mt-1 bg-blue-100 p-1 rounded-full">
-                            <ChevronRight className="w-4 h-4 text-blue-600" />
+                          <div className="mt-1 bg-primary p-1 rounded-full">
+                            <ChevronRight className="w-4 h-4 text-secondary" />
                           </div>
                           <div>
                             <span className="font-bold text-gray-800">
@@ -182,8 +183,8 @@ export default function TestimonialsPage() {
                           </div>
                         </li>
                         <li className="flex items-start gap-3">
-                          <div className="mt-1 bg-blue-100 p-1 rounded-full">
-                            <ChevronRight className="w-4 h-4 text-blue-600" />
+                          <div className="mt-1 bg-primary p-1 rounded-full">
+                            <ChevronRight className="w-4 h-4 text-secondary" />
                           </div>
                           <div>
                             <span className="font-bold text-gray-800">
@@ -197,9 +198,7 @@ export default function TestimonialsPage() {
                         </li>
                       </ul>
                     </div>
-                    <button className="mt-8 bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-                      Read full story
-                    </button>
+                    <Button className="">Read full story</Button>
                   </div>
                 </div>
               </div>
@@ -207,7 +206,7 @@ export default function TestimonialsPage() {
           </Card>
         </div>
 
-        <div className="my-20">
+        <div className="my-20 pt-30">
           <h2 className="text-3xl font-bold text-gray-900 mb-2 text-center ">
             {" "}
             Customer Testimonials
@@ -239,13 +238,13 @@ export default function TestimonialsPage() {
                     <Card
                       className={`h-full transition-all duration-300 ${
                         activeIndex === index
-                          ? "border-blue-500  shadow-xl  scale-105"
+                          ? "border-primary/60  shadow-xl  scale-105"
                           : "border-gray-200 hover:border-blue-300 hover:shadow-md"
                       }`}
                     >
                       <CardContent className="flex flex-col items-start gap-4 p-6 md:p-8">
                         <div className="flex items-center gap-4">
-                          <div className="relative w-14 h-14 rounded-full overflow-hidden border-2 border-blue-500 shadow-md">
+                          <div className="relative w-14 h-14 rounded-full overflow-hidden border-2 border-primary/60 shadow-md">
                             <img
                               src={testimonial.image}
                               alt={testimonial.name}
@@ -302,7 +301,7 @@ export default function TestimonialsPage() {
 
             <div className="flex justify-center gap-4 mt-10">
               <CarouselPrevious
-                className="relative border border-blue-500 bg-white text-blue-600 hover:bg-blue-50 transition-colors"
+                className="relative border border-primary/60 bg-white text-primary hover:bg-blue-50 transition-colors"
                 icon={<ChevronLeft className="w-5 h-5" />}
               />
               <div className="flex gap-1.5 items-center">
@@ -319,7 +318,7 @@ export default function TestimonialsPage() {
                     }}
                     className={`w-2.5 h-2.5 rounded-full transition-all ${
                       activeIndex === index
-                        ? "bg-blue-600 w-6"
+                        ? "bg-primary w-6"
                         : "bg-gray-300 hover:bg-gray-400"
                     }`}
                   />
@@ -327,94 +326,33 @@ export default function TestimonialsPage() {
               </div>
 
               <CarouselNext
-                className="relative border border-blue-500 bg-white text-blue-600 hover:bg-blue-50 transition-colors"
+                className="relative border border-primary/60 bg-white text-primary hover:bg-blue-50 transition-colors"
                 icon={<ChevronRight className="w-5 h-5" />}
               />
             </div>
           </Carousel>
         </div>
 
-        <div id="stats-section" className="mt-24 mb-16">
-          <div className="max-w-4xl mx-auto text-center mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              We"re Proud of Our Numbers
-            </h2>
-            <p className="text-gray-600">
-              Our success is measured by our customers' satisfaction and the
-              results we deliver.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-10">
-            <div className="bg-white rounded-2xl p-10 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-500 ">
-              <div className="w-16 h-16 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center mb-6 mx-auto group-hover:bg-blue-100">
-                icon coiulat
-              </div>
-              <div className="text-5xl font-bold text-gray-900 mb-2 flex justify-center">
-                <span> {counts.customers}</span>
-                <span className="text-blue-600">+</span>
-              </div>
-              <div className="text-gray-600 text-lg"> Happy Customers</div>
-            </div>
-
-            <div className="bg-white rounded-2xl p-10 shadow-2xl border border-gray-100 hover:shadow-2xl transition-all duration-500 group-hover:bg-blue-600">
-              <div className="w-16 h-16 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center mb-6 mx-auto group-hover:bg-blue-600">
-                icon coiulat
-              </div>
-
-              <div className="text-5xl font-bold text-gray-900 mb-2 flex justify-center ">
-                <span> {counts.rating}</span>
-              </div>
-              <div className="text-gray-600 text-lg">Average Rating</div>
-            </div>
-
-            <div className="bg-white rounded-2xl p-10 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-500 ">
-              <div className="w-16 h-16 bg-blue-100 text-blue-600  rounded-2xl flex items-center justify-center mb-6 mx-auto ">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="w-8 h-8"
-                  fill="nnone"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                  />
-                </svg>
-              </div>
-
-              <div className="text-5xl font-bold text-gray-900 mb-2 flex justify-center">
-                <span>{counts.satisfaction}</span>
-                <span className="text-blue-600">%</span>
-              </div>
-              <div className="text-gray-600 text-lg">Satisfaction Rate</div>
-            </div>
-          </div>
-        </div>
-
         <div className="mt-32 mb-16">
-          <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl p-10 md:p-16 relative overflow-hidden ">
+          <div className="bg-secondary rounded-3xl p-10 md:p-16 relative overflow-hidden ">
             <div className="absolute inset-0 opacity-10 bg-[url('/pattern.svg')]" />
 
             <div className="relative z-10 flex flex-col md:flex-row md:items-center md:justify-between gap-8">
               <div className="max-w-2xl">
-                <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+                <h2 className="text-[1.7rem] font-semibold text-white mb-4">
                   Ready to experience what our customers love?
                 </h2>
-                <p className="text-white/90 text-lg mb-8 md:mb-0">
+                <p className="text-white/90 text-md mb-8 md:mb-0">
                   Jooin thousands of satisfied customers who have transformed
                   their business with our solutions.
                 </p>
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <button className="bg-white text-blue-600 px-8 py-4 rounded-xl font-semibold shadow-lg hover:shadow-xl hover:scale-105">
+                <button className="bg-white text-secondary px-8 py-4 rounded-md font-semibold shadow-lg hover:shadow-xl hover:scale-105">
                   Get Started Now
                 </button>
-                <button className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white/10">
+                <button className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-md font-semibold hover:bg-white/10">
                   Schedule a Demo
                 </button>
               </div>
