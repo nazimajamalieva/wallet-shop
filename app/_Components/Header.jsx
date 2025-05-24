@@ -6,7 +6,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Send } from "lucide-react";
+import { ShoppingBasketIcon, User } from "lucide-react";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -50,9 +50,14 @@ export default function Header() {
             Testimonials
           </Link>
         </PopoverGroup>
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <Button>
-            <Send size={30} /> Contact Us
+
+        <div className="hidden lg:flex lg:flex-1 lg:justify-end items-center gap-4">
+          <ShoppingBasketIcon
+            size={26}
+            className="cursor-pointer hover:scale-125 transition-all duration-300"
+          />
+          <Button size={lg} className="flex items-center gap-2">
+            <User className="w-8 h-8" /> Login
           </Button>
         </div>
       </nav>
