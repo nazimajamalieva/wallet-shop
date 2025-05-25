@@ -4,7 +4,7 @@ import React from "react";
 
 const Creative = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-40 items-center mt-10 md:mt-30 px-4 md:px-10">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-40 items-center mt-10 md:mt-30 px-4 md:px-10 pb-27">
       {/* Блок 1: Текст → Картинка */}
       <div className="space-y-6 md:space-y-10 md:pe-20 text-center md:text-left order-1">
         <h1 className="text-3xl md:text-5xl font-semibold leading-tight">
