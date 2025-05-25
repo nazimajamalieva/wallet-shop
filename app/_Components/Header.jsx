@@ -56,7 +56,7 @@ export default function Header() {
             size={26}
             className="cursor-pointer hover:scale-125 transition-all duration-300"
           />
-          <Button size={lg} className="flex items-center gap-2">
+          <Button size="lg" className="flex items-center gap-2">
             <User className="w-8 h-8" /> Login
           </Button>
         </div>
