@@ -5,6 +5,8 @@ import { useState } from "react";
 import { Star, Filter, ArrowUpDown, ShoppingBasket } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import productsData from "../data/products.json";
+import { addToCart } from "../utils/cart";
+import { toast } from "sonner";
 
 const categories = [
   "All Products",
@@ -181,8 +183,14 @@ export default function ProductsPage() {
                     </span>
                   ))}
                 </div>
-                <Button className="w-full hover:scale-100 ">
-                  <ShoppingBasket className=" text-white" />
+                <Button
+                  onClick={() => {
+                    addToCart(product);
+                    toast.success(`${product.name} added to cart!`);
+                  }}
+                  className="w-full hover:scale-100"
+                >
+                  <ShoppingBasket className="text-white" />
                   <span className="text-sm">Add to Cart</span>
                 </Button>
               </div>

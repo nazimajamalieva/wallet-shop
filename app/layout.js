@@ -1,13 +1,10 @@
-import { Jost, Poppins } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "./_Components/Header";
 import Footer from "./_Components/Footer";
+import { Toaster } from "@/components/ui/sonner";
 
-const jost = Poppins({
-  subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  display: "swap",
-});
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Create Next App",
@@ -17,10 +14,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={jost.className}>
+      <body className={inter.className}>
         <Header />
         {children}
         <Footer />
+        <Toaster position="top-right" />
       </body>
     </html>
   );

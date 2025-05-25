@@ -18,10 +18,10 @@ export default function Header() {
         className="container mx-auto flex  items-center justify-between p-6 lg:px-8"
       >
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
+          <Link href="/">
+            <span className="sr-only">Wallet Shop</span>
             <Image src="/wallet-logo.png" alt="Logo" width={200} height={80} />
-          </a>
+          </Link>
         </div>
         <div className="flex lg:hidden">
           <button
@@ -52,13 +52,18 @@ export default function Header() {
         </PopoverGroup>
 
         <div className="hidden lg:flex lg:flex-1 lg:justify-end items-center gap-4">
-          <ShoppingBasketIcon
-            size={26}
-            className="cursor-pointer hover:scale-125 transition-all duration-300"
-          />
-          <Button size="lg" className="flex items-center gap-2">
-            <User className="w-8 h-8" /> Login
-          </Button>
+          <Link href="/cart">
+            <ShoppingBasketIcon
+              size={26}
+              className="cursor-pointer hover:scale-125 transition-all duration-300"
+            />
+          </Link>
+
+          <Link href="/login">
+            <Button size="lg" className="flex items-center gap-2">
+              <User className="w-8 h-8" /> Login
+            </Button>
+          </Link>
         </div>
       </nav>
       <Dialog
