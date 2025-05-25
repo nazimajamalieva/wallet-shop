@@ -5,22 +5,24 @@ import React from "react";
 const Banner = () => {
   return (
     <>
-      <div className="bg-[#DDF057] pt-30 pb-55 px-10">
+      <div className="bg-[#DDF057] pt-30 pb-30 md:pb-55 px-10">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-18 items-center">
-            <div className="space-y-12">
-              <h1 className="text-[5.7rem] leading-25 font-bold">
+            <div className="space-y-12 md:space-y-10 text-center md:text-left">
+              <h1 className="text-3xl sm:text-4xl leading-tight md:text-6xl font-bold">
                 What's In Your Wallet?
               </h1>
 
-              <p className="text-lg ">
+              <p className="text-base sm:text-lg text-gray-700">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
                 tempore nesciunt accusamus voluptatum expedita neque cupiditate
                 sit iste nihil error!
               </p>
+
               <Button>Explore Collections</Button>
             </div>
-            <div className="relative z-20">
+
+            <div className="relative z-20 hidden md:block">
               <div className="flex justify-end">
                 <Image
                   src="/Assets/wallet.png"
@@ -64,7 +66,7 @@ const Banner = () => {
           </div>
         </div>
       </div>
-      <div className="">
+      <div className="hidden md:block">
         <Image
           src="/Assets/wave.png"
           alt="Mary Hardy"
