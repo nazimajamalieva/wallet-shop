@@ -28,7 +28,6 @@ const Creative = () => {
         />
       </div>
 
-      {/* Блок 2: Текст → Картинка (адаптивный порядок) */}
       <div className="space-y-6 md:space-y-10 md:pe-20 text-center md:text-left order-3">
         <h1 className="text-3xl md:text-5xl font-semibold leading-tight">
           Elevate Your Digital Presence
@@ -42,7 +41,7 @@ const Creative = () => {
           <Button>View Our Portfolio</Button>
         </div>
       </div>
-      <div className="order-4">
+      <div className="order-4 ">
         <Image
           src="/Assets/creater2-img.png"
           alt="about"
