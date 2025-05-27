@@ -165,7 +165,13 @@ const CartPage = () => {
               </div>
               <button
                 className="mt-6 w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition-colors"
-                onClick={() => alert("Checkout is not implemented yet")}
+                onClick={() => {
+                  localStorage.setItem(
+                    "checkoutData",
+                    JSON.stringify(cartItems)
+                  );
+                  window.location.href = "/checkout";
+                }}
               >
                 Proceed to Checkout
               </button>
