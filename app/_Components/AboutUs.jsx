@@ -12,27 +12,59 @@ const AboutUs = () => {
           {/* Верхняя часть — текст + карточки */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 ">
             <div className="space-y-5 lg:pe-20 px-4 lg:px-0 text-center md:text-left">
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold leading-tight">
+              <h1
+                className="text-4xl sm:text-5xl lg:text-6xl font-semibold leading-tight"
+                data-aos="zoom-in"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out-back"
+              >
                 About Us
               </h1>
-              <p className="text-base sm:text-lg lg:text-xl text-gray-600">
+              <p
+                className="text-base sm:text-lg lg:text-xl text-gray-600"
+                data-aos="fade-right"
+                data-aos-duration="1200"
+                data-aos-easing="ease-in-out-back"
+              >
                 Transform your vision into reality with our innovative design
                 solurions. We craft memorable experiences that resonate with
                 your audience and drive results.
               </p>
-              <Button className="mt-4">Explore Collections</Button>
+              <Button
+                className="mt-4"
+                data-aos="fade-right"
+                data-aos-duration="1500"
+                data-aos-easing="ease-in-out-back"
+              >
+                Explore Collections
+              </Button>
             </div>
             <div className="px-4 lg:px-0 pb-20">
               <div className="grid grid-cols-2 gap-5 lg:gap-10 text-white">
-                <div className="bg-secondary p-6 rounded-md space-y-3">
+                <div
+                  className="bg-secondary p-6 rounded-md space-y-3"
+                  data-aos="zoom-in-right"
+                  data-aos-duration="1200"
+                  data-aos-easing="ease-in-out-back"
+                >
                   <h2 className="text-3xl font-semibold">15+</h2>
                   <p className="text-lg">Years of experience</p>
                 </div>
-                <div className="bg-secondary p-6 rounded-md space-y-3">
+                <div
+                  className="bg-secondary p-6 rounded-md space-y-3"
+                  data-aos="zoom-in-left"
+                  data-aos-duration="1200"
+                  data-aos-easing="ease-in-out-back"
+                >
                   <h2 className="text-3xl font-semibold">15+</h2>
                   <p className="text-lg">Years of experience</p>
                 </div>
-                <div className="bg-secondary p-6 col-span-2 rounded-md space-y-3">
+                <div
+                  className="bg-secondary p-6 col-span-2 rounded-md space-y-3"
+                  data-aos="zoom-in-up"
+                  data-aos-duration="1400"
+                  data-aos-easing="ease-in-out-back"
+                >
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                     <div className="space-y-3">
                       <h2 className="text-3xl font-semibold">1M +</h2>
@@ -53,7 +85,12 @@ const AboutUs = () => {
           </div>
           {/* ******************* */}
           <div className=" hidden md:grid grid-cols-4 gap-10 ">
-            <div className="">
+            <div
+              className=""
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-easing="ease-in-out-back"
+            >
               <Image
                 src="/Assets/shopping1.png"
                 alt="about us"
@@ -62,7 +99,12 @@ const AboutUs = () => {
                 className="w-full h-auto object-cover rounded-xl"
               />
             </div>
-            <div className="col-span-2">
+            <div
+              className="col-span-2"
+              data-aos="zoom-in-up"
+              data-aos-duration="1400"
+              data-aos-easing="ease-in-out-back"
+            >
               <Image
                 src="/Assets/shopping2.png"
                 alt="about us"
@@ -71,7 +113,12 @@ const AboutUs = () => {
                 className="w-full h-auto object-cover rounded-xl"
               />
             </div>
-            <div className="">
+            <div
+              className=""
+              data-aos="fade-left"
+              data-aos-duration="1200"
+              data-aos-easing="ease-in-out-back"
+            >
               <Image
                 src="/Assets/shopping3.png"
                 alt="about us"

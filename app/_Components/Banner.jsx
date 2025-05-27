@@ -8,7 +8,6 @@ const Banner = () => {
       <div className="bg-[#DDF057] pt-30 pb-30 md:pb-55 px-10 ">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-18 items-center">
-            {/* Левый блок — текст */}
             <div className="space-y-10 text-center md:text-left md:space-y-12">
               <h1
                 className="text-3xl sm:text-4xl md:text-[5.7rem] leading-tight md:leading-[6rem] font-bold"
@@ -41,7 +40,6 @@ const Banner = () => {
               </div>
             </div>
 
-            {/* Правый блок — изображение и карточка, только на md+ */}
             <div className="relative z-20 ">
               <div className="flex justify-end">
                 <Image
@@ -101,14 +99,13 @@ const Banner = () => {
         </div>
       </div>
 
-      {/* Волна — только для md+ */}
       <div className="hidden md:block">
         <Image
           src="/Assets/wave.png"
           alt="wave"
           width={1000}
           height={1000}
-          className="absolute w-full -bottom-155"
+          className="absolute w-full -bottom-145"
           data-aos="zoom-in"
           data-aos-duration="1300"
           data-aos-easing="ease-in-out-back"
