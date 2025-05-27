@@ -59,7 +59,7 @@ const Creative = () => {
         <p
           className="text-base md:text-xl text-gray-600"
           data-aos="fade-right"
-          data-aos-duration="1200"
+          data-aos-duration="1100"
           data-aos-easing="ease-in-out-back"
         >
           Our cutting-edge solutions help you stand out in the digital
@@ -69,7 +69,7 @@ const Creative = () => {
         <div className="flex justify-center md:justify-start">
           <Button
             data-aos="fade-right"
-            data-aos-duration="1500"
+            data-aos-duration="1300"
             data-aos-easing="ease-in-out-back"
           >
             View Our Portfolio
@@ -84,7 +84,7 @@ const Creative = () => {
           height={500}
           className="rounded-lg w-full h-auto object-cover"
           data-aos="zoom-in-left"
-          data-aos-duration="1200"
+          data-aos-duration="1100"
           data-aos-easing="ease-in-out-back"
         />
       </div>
