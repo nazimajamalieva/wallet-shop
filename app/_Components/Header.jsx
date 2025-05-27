@@ -18,7 +18,12 @@ export default function Header() {
         className="container mx-auto flex  items-center justify-between p-6 lg:px-8"
       >
         <div className="flex lg:flex-1">
-          <Link href="/">
+          <Link
+            href="/"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out-back"
+          >
             <span className="sr-only">Wallet Shop</span>
             <Image src="/wallet-logo.png" alt="Logo" width={200} height={80} />
           </Link>
@@ -34,32 +39,63 @@ export default function Header() {
           </button>
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
-          <Link href="/" className="text-lg font-normal text-gray-900">
+          <Link
+            href="/"
+            className="text-lg font-normal text-gray-900"
+            data-aos="fade-down"
+            data-aos-duration="1100"
+            data-aos-easing="ease-in-out-back"
+          >
             Home
           </Link>
-          <Link href="/about" className="text-lg font-normal text-gray-900">
+          <Link
+            href="/about"
+            className="text-lg font-normal text-gray-900"
+            data-aos="fade-down"
+            data-aos-duration="1200"
+            data-aos-easing="ease-in-out-back"
+          >
             About
           </Link>
-          <Link href="/products" className="text-lg font-normal text-gray-900">
+          <Link
+            href="/products"
+            className="text-lg font-normal text-gray-900"
+            data-aos="fade-down"
+            data-aos-duration="1300"
+            data-aos-easing="ease-in-out-back"
+          >
             Products
           </Link>
           <Link
             href="/testimonials"
             className="text-lg font-normal text-gray-900"
+            data-aos="fade-down"
+            data-aos-duration="1400"
+            data-aos-easing="ease-in-out-back"
           >
             Testimonials
           </Link>
         </PopoverGroup>
 
         <div className="hidden lg:flex lg:flex-1 lg:justify-end items-center gap-4">
-          <Link href="/cart">
+          <Link
+            href="/cart"
+            data-aos="fade-left"
+            data-aos-duration="1200"
+            data-aos-easing="ease-in-out-back"
+          >
             <ShoppingBasketIcon
               size={26}
               className="cursor-pointer hover:scale-125 transition-all duration-300"
             />
           </Link>
 
-          <Link href="/login">
+          <Link
+            href="/login"
+            data-aos="fade-left"
+            data-aos-duration="1400"
+            data-aos-easing="ease-in-out-back"
+          >
             <Button size="lg" className="flex items-center gap-2">
               <User className="w-8 h-8" /> Login
             </Button>
