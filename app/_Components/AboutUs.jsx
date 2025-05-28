@@ -36,7 +36,8 @@ const AboutUs = () => {
                 data-aos-duration="1500"
                 data-aos-easing="ease-in-out-back"
               >
-                Explore Collections
+                <Link href="/products"> Explore Collections </Link>
+               
               </Button>
             </div>
             <div className="px-4 lg:px-0 pb-20">

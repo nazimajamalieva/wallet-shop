@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import React from "react";
+import Link from "next/link";
 
 const Creative = () => {
   return (
@@ -30,7 +31,7 @@ const Creative = () => {
             data-aos-duration="1500"
             data-aos-easing="ease-in-out-back"
           >
-            Explore Collections
+            <Link href="/products"> Explore Collections </Link>
           </Button>
         </div>
       </div>
@@ -51,7 +52,7 @@ const Creative = () => {
         <h1
           className="text-3xl md:text-5xl font-semibold leading-tight"
           data-aos="zoom-in"
-          data-aos-duration="1000"
+          data-aos-duration="900"
           data-aos-easing="ease-in-out-back"
         >
           Elevate Your Digital Presence
@@ -59,7 +60,7 @@ const Creative = () => {
         <p
           className="text-base md:text-xl text-gray-600"
           data-aos="fade-right"
-          data-aos-duration="1100"
+          data-aos-duration="1000"
           data-aos-easing="ease-in-out-back"
         >
           Our cutting-edge solutions help you stand out in the digital
@@ -69,10 +70,10 @@ const Creative = () => {
         <div className="flex justify-center md:justify-start">
           <Button
             data-aos="fade-right"
-            data-aos-duration="1300"
+            data-aos-duration="1200"
             data-aos-easing="ease-in-out-back"
           >
-            View Our Portfolio
+            <Link href="/about"> View Our Portfolio</Link>
           </Button>
         </div>
       </div>
@@ -84,7 +85,7 @@ const Creative = () => {
           height={500}
           className="rounded-lg w-full h-auto object-cover"
           data-aos="zoom-in-left"
-          data-aos-duration="1100"
+          data-aos-duration="1000"
           data-aos-easing="ease-in-out-back"
         />
       </div>

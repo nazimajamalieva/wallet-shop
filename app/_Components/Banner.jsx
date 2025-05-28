@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Banner = () => {
@@ -35,7 +36,7 @@ const Banner = () => {
                   data-aos-duration="1300"
                   data-aos-easing="ease-in-out-back"
                 >
-                  Explore Collections
+                  <Link href="/products">Explore Collections</Link>
                 </Button>
               </div>
             </div>
